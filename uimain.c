@@ -35,7 +35,7 @@ int main()
       break;
     case 'C':
       puts("You selected chars 8x12:");
-      for (char c = 'A'; c < 'D'; c++)
+      for (char c = 'a'; c < 'd'; c++)
 	print_char_8x12(c);
       break;
     case 'q':
